@@ -40,7 +40,7 @@ O armazenamento dos dados desse projeto simula a estrutura de um Datalake, ou se
 
 - **Bronze**: Aqui os dados armazenados são brutos, ou seja, ainda não receberam nenhum tratamento para serem consumidos. 
 Nesse projeto, são representados por arquivos ".json.gz", ".csv.gz" e ".tar.gz", onde cada arquivo possui as informações 
-coletadas referentes a pedidos/usuários/restaurantes/teste A/B.
+coletadas referentes a pedidos, usuários, restaurantes e teste A/B.
 - **Silver**: Os dados presentes nessa camada já foram tratados e podem ser consumidos. Nesse projeto, são representados 
 por tabelas, onde cada tabela possui determinadas informações dos pedidos, usuários, restaurantes e teste A/B coletados. 
 As informações dos itens dos pedidos foram divididas com base nos seus tipos, ou seja, "item geral" e "item de guarnição", 
